@@ -1,4 +1,4 @@
-# Update January 12, 2023 <!-- omit in toc -->
+# chatgptx-browser
 
 This package allows you to access ChatGPT from Node.js – even with OpenAI's Cloudflare protections. It uses a **fully automated browser-based solution**, which uses Puppeteer and CAPTCHA solvers under the hood. 🔥
 
@@ -34,7 +34,7 @@ Thanks && cheers,
 
 ---
 
-<p align="center">
+<p>
   <img alt="Example usage" src="/media/demo.gif">
 </p>
 
@@ -379,8 +379,6 @@ All of these awesome projects are built using the `chatgpt` package. 🤯
 If you create a cool integration, feel free to open a PR and add it to the list.
 
 ## Compatibility
-
-This package is ESM-only. It supports:
 
 - Node.js >= 18
   - Node.js 17, 16, and 14 were supported in earlier versions, but OpenAI's Cloudflare update caused a bug with `undici` on v17 and v16 that needs investigation. So for now, use `node >= 18`
